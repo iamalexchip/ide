@@ -1,0 +1,52 @@
+[
+    {
+        "command": "core.close.tab",
+        "keybinding": "ctrl+w"
+    },
+    {
+        "command": "file.newFile",
+        "keybinding": "ctrl+n"
+    },
+    {
+        "command": "-file.newFile",
+        "keybinding": "alt+n"
+    },
+    {
+        "command": "workspace:open",
+        "keybinding": "ctrl+o"
+    },
+    {
+        "command": "-workspace:open",
+        "keybinding": "ctrlcmd+alt+o"
+    },
+    {
+        "command": "editor.action.revealDefinition",
+        "keybinding": "f12",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "command": "-editor.action.revealDefinition",
+        "keybinding": "ctrlcmd+f11",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "command": "core.nextTab",
+        "keybinding": "ctrlcmd+tab ctrl+pagedown"
+    },
+    {
+        "command": "-core.nextTab",
+        "keybinding": "ctrlcmd+tab"
+    },
+    {
+        "command": "core.previousTab",
+        "keybinding": "ctrlcmd+shift+tab ctrl+pageup"
+    },
+    {
+        "command": "-core.previousTab",
+        "keybinding": "ctrlcmd+shift+tab"
+    },
+    {
+        "command": "-core.nextTab",
+        "keybinding": "ctrlcmd+tab ctrl+pageup"
+    }
+]

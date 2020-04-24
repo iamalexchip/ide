@@ -1,7 +1,11 @@
-node_modules
-lib
-plugins
-src-gen
+node_modules/
+lib/
 
+# theia
+plugins/
+src-gen/
+
+# Node
+yarn-error.log
 gen-webpack.config.js
 webpack.config.js
