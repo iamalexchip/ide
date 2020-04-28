@@ -3,9 +3,8 @@ My personal Theia idea
 
 ## Key bindings
 Copy `bindings/keymaps.json` to the folder `/home/${USER}/.thea` .
-Run the contents of `bindings/capture.min.js` in the console of the tab you are using. This will allow you capture some bindings used by vscode which have conflicts with the browser.
 
-**NB:** This only works when in full screen mode on chrome.
+**NB:** Conflicting shortcuts only work in full screen mode.
 
 | Binding | Action | keymap.json |
 |----|----|----|
@@ -15,8 +14,3 @@ Run the contents of `bindings/capture.min.js` in the console of the tab you are 
 | `ctrl + pageup` | Switch to previous tab | ✓ |
 | `ctrl + pageup` | Switch to next tab  | ✓ |
 | `F12` | Go to definition | ✓ |
-| `ctrl + shift + t` | Reopen closed editor | ✗ (Theia doesn't have a command for this yet) |
-
-## Todo
-
-- Create extension for capturing key bindings
